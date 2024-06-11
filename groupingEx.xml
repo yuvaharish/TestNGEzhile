@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <groups>
+  <run>
+  <include name="Sanity"></include>
+  <include name="Smoke"></include>
+  <exclude name=""></exclude>
+  </run>
+  </groups>
+    <classes>
+      <class name="execuationPack.BrowserTest"/>
+      <class name="execuationPack.GroupingExample"/>
+      <class name="execuationPack.DependeciesManagment"/>
+      <class name="execuationPack.TestNGPriority"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
